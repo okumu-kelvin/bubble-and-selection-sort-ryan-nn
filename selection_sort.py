@@ -10,7 +10,7 @@ def selection_sort(arr):
 
             if min_index != i:
                 arr[i], arr[min_index] = arr[min_index], arr[i]
-
+    return arr
 name=input("Enter your name: ")
 name=name.lower()
 

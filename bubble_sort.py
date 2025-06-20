@@ -8,7 +8,8 @@ def bubble_sort(unsorted_list):
             if unsorted_list[index]> unsorted_list[index + 1]:
 
                 unsorted_list[index], unsorted_list[index + 1] = unsorted_list[index + 1], unsorted_list[index]
-
+    return unsorted_list
+    
 name= input("Enter your name : ")
 name=name.lower()
 #converts the name inputed to lowercase for accuracy in sorting because the Unicode for lowercase and uppercase vary
